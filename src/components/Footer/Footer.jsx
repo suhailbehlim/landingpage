@@ -45,13 +45,13 @@ const Footer = () => {
       <StackColumn>
         <FooterTitle text={'address'} />
         <FooterLink 
-        text={'15th Louis St, london 92382, eng'} 
+        text={'Fatehpur, Rajsthan, IND'} 
         />
         <FooterLink 
-        text={'25 999-345-10800'} 
+        text={'+91 1234567890'} 
         />
         <FooterLink 
-        text={'info@housesales.com'} 
+        text={'info@apnahouse.com'} 
         />
       </StackColumn>
       
@@ -60,7 +60,7 @@ const Footer = () => {
         <FooterLink text={'buy house'} />
         <FooterLink text={'sell house'} />
         <FooterLink text={'rent house'} />
-        <FooterLink text={'build house'} />
+      
       </StackColumn>
       <StackColumn>
         <FooterTitle text={'our company'} />
@@ -70,14 +70,14 @@ const Footer = () => {
       </StackColumn>
 
       <StackColumn>
-        <FooterTitle text={'hBSales'} />
+        <FooterTitle text={'Apna House'} />
         <Stack 
         direction='row' 
         width= '70px'
         maxWidth='100%'
         justifyContent='space-between'
         >
-          <Link href="#" variant="body2" 
+          <Link href="www.instagraam.com/suhailbehlim" variant="body2" 
           sx={{
             color: '#414141',
             "&:hover": {
@@ -87,7 +87,7 @@ const Footer = () => {
           >
             <InstagramIcon />  
           </Link> 
-          <Link href="#"variant="body2" 
+          <Link href="www.facebook.com"variant="body2" 
           sx={{
             color: '#414141',
             "&:hover": {
@@ -102,7 +102,7 @@ const Footer = () => {
         variant='caption'
         component='p' 
         >
-          &copy; 2022 Suhail Behlim.
+          &copy; 2023 Suhail Behlim.
         </Typography>
       </StackColumn>
     </BoxRow>

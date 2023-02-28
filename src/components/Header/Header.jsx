@@ -10,11 +10,11 @@ const Header = () => {
         minHeight: '80vh',
         display: 'flex',
         justifyContent: 'center',
-        // tamanhos
+
         gap: theme.spacing(2),
         paddingTop: theme.spacing(10),
-        // cor de fundo
-        backgroundColor: 'orange',
+
+        backgroundColor: '#0091ff',
         [theme.breakpoints.down('md')]: {
             flexDirection: 'column',
             alignItems: 'center',
@@ -76,7 +76,7 @@ const Header = () => {
                         borderRadius: 0,
                         borderColor: '#14192d',
                         color: '#fff',
-                        backgroundColor: '#14192d',
+                        backgroundColor: 'orange',
                         "&&:hover": {
                             backgroundColor: "#343a55"
                         },

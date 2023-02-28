@@ -12,11 +12,9 @@ import {
 } from '@mui/material';
 // menu
 import DrawerItem from '../Hero/DrawerItem';
-// rotas
 import { Link } from 'react-router-dom';
 
 
-// personalizacao
 const StyledToolbar = styled(Toolbar) ({
     display: 'flex',
     justifyContent: 'space-between',
@@ -29,7 +27,6 @@ const ListMenu = styled(List)(({ theme }) => ({
     },
 }));
 
-//rotas
 const itemList = [
     {
       text: "Home",
@@ -53,7 +50,7 @@ const Navbar = () => {
         component="nav" 
         position="sticky"
         sx={{ 
-            backgroundColor: 'orange', 
+            backgroundColor: '#0091ff', 
         }}
         elevation={0}
         >
@@ -63,7 +60,7 @@ const Navbar = () => {
                 component="h2"
 
                 >
-                    HBSales
+                   APNA HOUSE
                 </Typography>
                 <Box sx={{display: { xs: 'block', sm: 'none' } }}>
                     <DrawerItem /> 

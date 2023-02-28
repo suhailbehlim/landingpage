@@ -50,7 +50,7 @@ const GetInTouch = () => {
                 mt: 3, 
                 mb: 2,
                 borderRadius: 0,
-                backgroundColor: '#14192d',
+                backgroundColor: '#0091ff',
                 "&:hover": {
                     backgroundColor: '#1e2a5a',
                 }

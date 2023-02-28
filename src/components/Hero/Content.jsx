@@ -79,7 +79,7 @@ const Content = () => {
                         <IconButton>
                             <SportsGymnasticsIcon 
                             fontSize="large"
-                            color="secondary" />
+                            color="primary" />
                         </IconButton>
                         <Typography 
                         variant="h5" 
@@ -111,7 +111,7 @@ const Content = () => {
                         <IconButton>
                             <LocalParkingIcon 
                             fontSize="large"
-                            color="secondary" />
+                            color="primary" />
                         </IconButton>
                         <Typography 
                         variant="h5" 
@@ -146,7 +146,7 @@ const Content = () => {
                     <CardContent>
                         <ArrowCircleRightRoundedIcon
                         fontSize="large"
-                        color="secondary" />
+                        color="primary" />
                     </CardContent>
                 </Card>
             </Grid>
@@ -167,7 +167,7 @@ const Content = () => {
                         <IconButton>
                             <FastfoodOutlinedIcon
                             fontSize="large"
-                            color="secondary" />
+                            color="primary" />
                         </IconButton>
                         <Typography 
                         variant="h5" 
@@ -200,7 +200,7 @@ const Content = () => {
                         <IconButton>
                             <PoolOutlinedIcon 
                             fontSize="large"
-                            color="secondary" />
+                            color="primary" />
                         </IconButton>
                         <Typography 
                         variant="h5" 
@@ -232,7 +232,7 @@ const Content = () => {
                         <IconButton>
                             <WifiPasswordIcon
                             fontSize="large"
-                            color="secondary" />
+                            color="primary" />
                         </IconButton>
                         <Typography 
                         variant="h5" 
