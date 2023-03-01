@@ -35,7 +35,7 @@ const itemList = [
   {
     text: "Home",
     icon: <HomeIcon />,
-    to: "/"
+    to: "/landingpage"
   },
   {
     text: "About",
