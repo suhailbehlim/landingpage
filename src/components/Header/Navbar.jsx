@@ -30,7 +30,7 @@ const ListMenu = styled(List)(({ theme }) => ({
 const itemList = [
     {
       text: "Home",
-      to: "/" 
+      to: "/landingpage" 
     },
     {
       text: "About",
